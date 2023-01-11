@@ -3,7 +3,7 @@ import speedtest
 from telebot import TeleBot, types
 
 # создадим бота
-bot = TeleBot(token='5824792631:AAFNl8Itq8vabO3HTZlR_TAJznjQnMncz18', parse_mode='html') 
+bot = TeleBot(token='Token', parse_mode='html') 
 st = speedtest.Speedtest()
 
 # обработчик команды '/start'
